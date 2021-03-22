@@ -1,0 +1,28 @@
+.footer{
+    background-color: $blue-light;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $light;
+    text-align: center;
+    align-items: center;
+    /*div{
+        padding: 0px;
+        margin:0px;
+    }*/
+}
+
+@media (min-width: 100px){ /*Small devices (landscape phones, 576px and up) SM*/
+    .footer{
+        font-size: small;
+    }
+}
+@media (min-width: 768px) { /*Medium devices (tablets, 768px and up) MD*/
+    .footer{
+        font-size: large;
+    }
+}
+@media (min-width: 1200px) and (min-width: 992px) { /*Extra large devices (large desktops, 1200px and up) XL*/
+    .footer{
+        font-size: x-large;
+    }
+}

@@ -1,0 +1,37 @@
+.header__main{
+    align-items: center;
+    box-shadow: 0px 7px darken($color: $light, $amount: 50);
+    color: $info;
+    font-family: 'arial';
+    font-size: large;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 4px darken($color: $info, $amount: 40);
+    img{
+        border-radius: 8px;
+        height:300px;
+        width:480px;
+    }
+    section:hover{
+        color: darken($color: $info, $amount: 15);
+        cursor: context-menu;
+        transition: color .3s ease;
+    }
+}
+
+@media (min-width: 100px){ /*Small devices (landscape phones, 576px and up) SM*/
+    .header__main{
+        font-size: small;
+    }
+
+}
+@media (min-width: 768px) { /*Medium devices (tablets, 768px and up) MD*/
+    .header__main{
+        font-size: large;
+    }
+}
+@media (min-width: 1200px) and (min-width: 992px) { /*Extra large devices (large desktops, 1200px and up) XL*/
+    .header__main{
+        font-size: x-large;
+    }
+}

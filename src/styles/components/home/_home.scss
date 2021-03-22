@@ -1,0 +1,115 @@
+.home__content{
+    text-align: justify;
+    font-family: 'consolas','arial';
+    font-size: x-large;
+
+    h4{
+        font-size: xx-large;
+        color: $primary;
+    }
+    p{
+        color: $secondary;
+    }
+}
+.home__header{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+    .home__header .card{
+        padding: 10px;
+        margin: 10px;
+
+        h4{
+            font-size: x-large;
+            color: $primary;
+        }
+
+        h5{
+            color: $brown-light;
+        }
+
+        h6{
+            color: $blue-light;
+        }
+
+        p{
+            color: $secondary;
+        }
+
+        ul{
+            margin: 0px;   
+        }
+
+        li{
+            list-style: none;
+            font-size: 20px;
+            text-align: left;
+            padding-top: 15px; 
+            color: $secondary;  
+        }
+    }
+
+@media (min-width: 100px){ /*Small devices (landscape phones, 576px and up) SM*/
+    .home__header .card{
+        padding: 10px;
+        font-size: medium;
+        width: 80%;
+        margin-left: 10%;
+        li{
+            font-size: large;
+        }
+    }
+        .home__header .card h4{
+            font-size: large;
+        }
+        
+
+    .home__content .card{     
+        font-size: medium;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+        .home__content h4{
+            font-size: large;
+        }
+}
+@media (min-width: 768px) { /*Medium devices (tablets, 768px and up) MD*/
+    .home__header .card{
+        padding: 10px;
+        margin: 10px;
+        font-size: large;
+        width: 40%;
+        li{
+            font-size: large;
+        }
+    }
+        .home__header .card h4{
+            font-size: large;
+        }
+    .home__content .card{
+        font-size: large;
+        width: 80%;
+    }
+        .home__content h4{
+            font-size: x-large;
+        }
+}
+@media (min-width: 1200px) and (min-width: 992px) { /*Extra large devices (large desktops, 1200px and up) XL*/
+    .home__header .card{
+        padding: 10px;
+        margin: 10px;
+        width: 40%;
+        font-size: medium;
+    }
+        .home__header .card h4{
+            font-size: x-large;
+        }
+    .home__content .card{
+        font-size: x-large;
+    }
+        .home__content h4{
+            font-size: xx-large;
+        }
+}

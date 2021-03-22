@@ -1,0 +1,42 @@
+.skills__main{
+    .card{
+        font-family: monospace, arial;
+        font-size: large;
+        width: 42vw;
+        margin: 0px 20px 0px 20px;
+
+        h2{
+            color: $primary;
+            font-weight: bold;
+        }
+
+        h4{
+            color: $secondary;
+        }
+    }
+}
+
+@media (min-width: 100px){ /*Small devices (landscape phones, 576px and up) SM*/
+    .skills__main{
+        margin: 0px;
+        .card{
+            width: 100vw;
+        }
+    }
+}
+@media (min-width: 768px) { /*Medium devices (tablets, 768px and up) MD*/
+    .skills__main{
+        margin: 0px;
+        .card{
+            width: 42vw;
+        }
+    }
+}
+@media (min-width: 1200px) and (min-width: 992px) { /*Extra large devices (large desktops, 1200px and up) XL*/
+    .skills__main{
+        margin: 20px;
+        .card{
+            width: 42vw;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.modal{
+    /*width: 100vw;
+    height: 100vh;*/
+    font-family: monospace;
+    .modal-background{
+        text-align: center,arial;
+        font-size: xx-large;
+        color: $light;
+    }
+    .modal-content{
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        //width: 80vw;
+        text-align: center;
+        #reCAPTCHA{
+            text-align: center;
+            align-items: center;
+            padding-left: 25%;
+        }
+        h2{
+            margin: 10px 0px 10px 0px;
+            font-weight: bold;
+            font-size: x-large;
+            font-family: arial;
+        }
+        input{
+            color: $primary;
+            font-size: large;
+        }
+        textarea{
+            height: 15vh;
+            resize: none;
+            color: $secondary;
+            font-size: medium;
+        }
+        button{
+            padding: 0% 10% 0% 10%;
+        }
+    }
+}
+
+nav li span{
+    &:hover{
+        border-bottom: 1px solid black;
+    }
+}
+
+@media (min-width: 100px){ /*Small devices (landscape phones, 576px and up) SM*/
+    nav li{
+        font-size: small;
+    }
+}
+@media (min-width: 768px) { /*Medium devices (tablets, 768px and up) MD*/
+    nav li{
+        font-size: large;
+    }
+}
+@media (min-width: 1200px) and (min-width: 992px) { /*Extra large devices (large desktops, 1200px and up) XL*/
+    nav li{
+        font-size: large;
+    }
+}
