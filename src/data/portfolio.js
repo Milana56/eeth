@@ -3,7 +3,7 @@ export const portfolio =[
         "id":"ID1",
         "name":"Contact Form",
         "description":"Contact form created with React and Bootstrap. Using reCAPTCHA and operations to prevent bots.",
-        "image":"../../../public/assets/images/projects/ContactForm.jpg",
+        "image":"./../../../public/assets/images/projects/ContactForm.jpg",
         "video":"./assets/videos/ContactForm.mp4",
         "github":".."
     },
@@ -11,7 +11,7 @@ export const portfolio =[
         "id":"ID2",
         "name":"Project Golang",
         "description":"Web site created with Golang, PostgreSQL, Javascript and other technologies. Proving CRUD, Sign In and Log Out, different rolls, modals and web sockets",
-        "image":"./assets/images/projects/Project-Golang.jpg",
+        "image":"./public/assets/images/projects/Project-Golang.jpg",
         "video":"./assets/videos/Project-Golang.mp4",
         "github":".."
     },
