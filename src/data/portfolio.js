@@ -3,8 +3,8 @@ export const portfolio =[
         "id":"ID1",
         "name":"Contact Form",
         "description":"Contact form created with React and Bootstrap. Using reCAPTCHA and operations to prevent bots.",
-        "image":"../test.jpg",
-        "video":"./assets/videos/ContactForm.mp4",
+        "image":"https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/IMG_Academy_Logo.svg/1200px-IMG_Academy_Logo.svg.png",
+        "video":"https://drive.google.com/drive/folders/1iVFz0mliS5fjwnJTJXMB3SnFnjms6nCa",
         "github":".."
     },
     {
