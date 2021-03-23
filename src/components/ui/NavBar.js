@@ -153,7 +153,7 @@ const NavBar =()=>{
                         </div>
                         <div className="field" id="reCAPTCHA">
                             <Recaptcha
-                                sitekey="6LfWzIoaAAAAAB5EHDI58ruEzO2kJsJdBtZlAEtm"
+                                sitekey="6LdK2ooaAAAAAK37jyjktoOnqvsG7vYLkIRtEAPj"
                                 render="explicit"
                                 theme="dark"
                                 verifyCallback={verifyCallback} 
