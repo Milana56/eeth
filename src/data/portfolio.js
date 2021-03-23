@@ -3,7 +3,7 @@ export const portfolio =[
         "id":"ID1",
         "name":"Contact Form",
         "description":"Contact form created with React and Bootstrap. Using reCAPTCHA and operations to prevent bots.",
-        "image":"./public/assets/images/projects/ContactForm.jpg",
+        "image":"../../../public/assets/images/projects/ContactForm.jpg",
         "video":"./assets/videos/ContactForm.mp4",
         "github":".."
     },
