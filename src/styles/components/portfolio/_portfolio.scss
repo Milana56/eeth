@@ -7,6 +7,11 @@
     display: flex;
     flex-wrap: wrap;
 
+    iframe{
+        width: 100%;
+        height: 450px;
+    }
+
     .modal{
         .modal-content{
             width: 60%;
@@ -58,24 +63,44 @@
 }
 
 @media (min-width: 100px){ /*Small devices (landscape phones, 576px and up) SM*/
-    .modal{
-        .modal-content{
-            padding: 0px;
+    .portfolio__content{
+        .modal{
+            .modal-content{
+                width: 100%;
+                height: 70%;
+            }
+        }
+        iframe{
+            width: 100%;
+            height: 300px;
         }
     }
-
 }
 @media (min-width: 768px) { /*Medium devices (tablets, 768px and up) MD*/
-    .modal{
-        .modal-content{
-            padding: 10px;
+    .portfolio__content{
+        .modal{
+            .modal-content{
+                width: 70%;
+                height: 70%;
+            }
+        }
+        iframe{
+            width: 100%;
+            height: 300px;
         }
     }
 }
 @media (min-width: 1200px) and (min-width: 992px) { /*Extra large devices (large desktops, 1200px and up) XL*/
-    .modal{
-        .modal-content{
-            padding: 10px;
+    .portfolio__content{
+        .modal{
+            .modal-content{
+                width: 60%;
+                height: 100%;
+            }
+        }
+        iframe{
+            width: 100%;
+            height: 450px;
         }
     }
 }

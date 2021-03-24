@@ -17,7 +17,7 @@ const PortfolioCards =()=>{
 
             //Video
             document.getElementById("source").setAttribute('src',video);
-            document.getElementById("video").load();
+            //document.getElementById("video").load();
 
             //Description
             document.getElementsByTagName("p")[0].innerHTML = description;
@@ -26,8 +26,8 @@ const PortfolioCards =()=>{
             modal.className = "modal"
 
             //Stop video
-            document.getElementById("video").pause();
-            document.getElementById("video").currentTime = 0;
+            //document.getElementById("video").pause();
+            //document.getElementById("video").currentTime = 0;
         }
     }
 
