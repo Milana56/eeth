@@ -10,7 +10,7 @@ const PortfolioCards =()=>{
         const modal = document.getElementById("projectModal");
 
         if(type==="open"){
-            modal.className += " is-active is-clipped"
+            modal.className += " is-active is-clipped";
             
             //Title
             document.getElementById("portfolio__modal-title").innerHTML = name.toUpperCase();
@@ -23,7 +23,7 @@ const PortfolioCards =()=>{
             document.getElementsByTagName("p")[0].innerHTML = description;
 
         }else{
-            modal.className = "modal"
+            modal.className = "modal";
 
             //Stop video
             //document.getElementById("video").pause();
