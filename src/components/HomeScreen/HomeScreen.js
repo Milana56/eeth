@@ -26,18 +26,14 @@ const HomeScreen =()=>{
                             <br/>
                             <div>
                                 <h5>CERTIFICATES</h5>
+                                <h6>WEB PROGRAMMING</h6>
+                                <p>Guadalajara, Jalisco, Mexíco, 9th June 2016</p>
 
-                                <h6>PROYECTOS EMPRENDEDORES / 228hrs</h6>
-                                <p>Guadalajara, Jalisco, Mexíco, a 09 de junio del 2016</p>
-                                
-                                <h6>PROGRAMACION WEB / 228hrs</h6>
-                                <p>Guadalajara, Jalisco, Mexíco, a 09 de junio del 2016</p>
+                                <h6>COMPUTER NETWORKING</h6>
+                                <p>Guadalajara, Jalisco, Mexíco, 1st November 2018</p>
 
-                                <h6>REDES DE COMPUTADORAS (BASICO) / 20hrs</h6>
-                                <p>Guadalajara, Jalisco, Mexíco, a 01 de noviembre del 2018</p>
-
-                                <h6>PROULEX ENGLISH / 480hrs</h6>
-                                <p>Guadalajara, Jalisco, Mexíco, a 15 de diciembre del 2020</p>
+                                <h6>PROULEX'S ENGLISH</h6>
+                                <p>Guadalajara, Jalisco, Mexíco, 15th December 2020</p>
                             </div>
                         </div>
                     </section>
@@ -77,10 +73,10 @@ const HomeScreen =()=>{
                     
                     <section className="card-content">
                         <div className="content">
-                            <p>I studied computer engineering. I focus on my skills and experiences that i realize as web programmer. <br/>
-                            I have been working many projects as freelancer, helping family and friends about how to solve their problems using my skills as developer, also i have
-                            been working many tasks and projects in my university. I have been creating and developing as front-end and back-end, programming, designing styles and creating database structure, pseudocode, documentations and handbooks.<br/>
-                            I work not only in the web, also create software in desktop, mobile, electronics and Networks.
+                            <p>I want to focus on upgrade my skills as web developer. <br/>
+                            I have worked on many projects as a freelancer, helping family and friends about how to solve their problems using my skills, also I have
+                            developed many projects in college. I have created and developed as a fullstack developer, programming, designing styles and creating database structure, pseudocode, documentations and handbooks.<br/>
+                            I don't only developed on the web, I also programmed software for mobile, desktop, Embedded systems.
                             </p>
                         </div>       
                     </section>

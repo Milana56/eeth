@@ -37,12 +37,10 @@ const NavBar =()=>{
                         emailjs.sendForm('service_tscc3v8', 'template_hncjxsr', e.target, 'user_4sqJ345aondDk7MMxK5wz')
                         .then(() => {
                             setForm({...form,messageSent:true});
-                            document.getElementById("input1").disabled = true;
-                            document.getElementById("input2").disabled = true;
-                            document.getElementById("input3").disabled = true;
-                            document.getElementById("input4").disabled = true;
-                            document.getElementById("input5").disabled = true;
-                            document.getElementById("modal-submit").disabled = true;
+
+                            //Cerrar modal
+                            document.getElementById("modal").className = "modal";
+
                             messageControler('success','Finished','Message sent');
                         }, () => {
                             messageControler('error','Messaging ERROR','A failure occurred during sending message');
@@ -67,15 +65,12 @@ const NavBar =()=>{
         const modal = document.getElementById("modal");
 
         if(type==="open"){
-            document.getElementById("input1").disabled = false;
-            document.getElementById("input2").disabled = false;
-            document.getElementById("input3").disabled = false;
-            document.getElementById("input4").disabled = false;
-            document.getElementById("input5").disabled = false;
-            document.getElementById("modal-submit").disabled = false;
-
             reset();
+
+            //Resetear datos reCaptcha y reCaptcha
             resetCaptcha();
+            recaptchaInstance.reset();
+
             modal.className += " is-active is-clipped"
 
         }else{
@@ -109,6 +104,8 @@ const NavBar =()=>{
 
     const Recaptcha = require('react-recaptcha');
     const Swal = require('sweetalert2');
+
+    let recaptchaInstance;
 
     // specifying your onload callback function
     const callback =()=> {};
@@ -153,6 +150,7 @@ const NavBar =()=>{
                         </div>
                         <div className="field" id="reCAPTCHA">
                             <Recaptcha
+                                ref={e => recaptchaInstance = e}
                                 sitekey="6LfWzIoaAAAAAABEmRyQNOVthQY7rPPb_O96bm5B"
                                 render="explicit"
                                 theme="dark"
