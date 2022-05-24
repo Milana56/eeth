@@ -78,6 +78,11 @@ const HomeScreen =()=>{
                             developed many projects in college. I have created and developed as a fullstack developer, programming, designing styles and creating database structure, pseudocode, documentations and handbooks.<br/>
                             I don't only developed on the web, I also programmed software for mobile, desktop, Embedded systems.
                             </p>
+                            <p>
+                                I have experience in a company that develop apps and web sites, I have worked 1 year and 6 months as full stack developer. I worked in 6 projects and finished three succesfully.
+                                I use Jira, bitbucket and Github to upload my progress every day. <br/>
+                                I work as a Full-Stack but Front-end is my passion and my strongest skill, I love to design and comsume APIs in front-end. Also I know responsive website and create components to motivate user to use my webs and apps.
+                            </p>
                         </div>       
                     </section>
 

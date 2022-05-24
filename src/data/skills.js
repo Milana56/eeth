@@ -15,7 +15,7 @@ export const skills =[
         'id':'ID3',
         'skill':'Java',
         'category':'languages',
-        'level':50,
+        'level':75,
     },
     {
         'id':'ID4',
@@ -33,7 +33,7 @@ export const skills =[
         'id':'ID6',
         'skill':'Golang',
         'category':'languages',
-        'level':75,
+        'level':25,
     },
     {
         'id':'ID7',
@@ -51,13 +51,13 @@ export const skills =[
         'id':'ID9',
         'skill':'HTML5',
         'category':'languages',
-        'level':75,
+        'level':100,
     },
     {
         'id':'ID10',
         'skill':'CSS3',
         'category':'languages',
-        'level':50,
+        'level':100,
     },
     {
         'id':'ID11',
@@ -81,7 +81,7 @@ export const skills =[
         'id':'ID14',
         'skill':'Bootstrap',
         'category':'frameworks/libraries',
-        'level':75,
+        'level':100,
     },
     {
         'id':'ID15',
@@ -93,7 +93,7 @@ export const skills =[
         'id':'ID16',
         'skill':'Sass',
         'category':'frameworks/libraries',
-        'level':50,
+        'level':75,
     },
     {
         'id':'ID17',
@@ -111,6 +111,30 @@ export const skills =[
         'id':'ID19',
         'skill':'React',
         'category':'frameworks/libraries',
-        'level':75,
+        'level':100,
+    },
+    {
+        'id':'ID20',
+        'skill':'Laravel',
+        'category':'frameworks/libraries',
+        'level':50,
+    },
+    {
+        'id':'ID21',
+        'skill':'Flutter',
+        'category':'frameworks/libraries',
+        'level':50,
+    },
+    {
+        'id':'ID22',
+        'skill':'Graphql',
+        'category':'languages',
+        'level':50,
+    },
+    {
+        'id':'ID23',
+        'skill':'Typescript',
+        'category':'languages',
+        'level':50,
     },
 ]
